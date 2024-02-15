@@ -1,0 +1,26 @@
+header {
+    padding: 1rem;
+    background-color: rgb(205, 237, 205);
+    margin-bottom: 0.5rem;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+nav > ul > li {
+    position: relative;
+
+    background-color: rgba(144, 238, 144, 0.633);
+    border-radius: 0.25rem;
+}
+
+ul > li > a {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+}
